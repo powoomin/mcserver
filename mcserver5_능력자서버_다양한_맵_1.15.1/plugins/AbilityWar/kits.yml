@@ -1,0 +1,7 @@
+# 게임 기본 아이템 설정
+기본아이템: {}
+# 기본 아이템 프리셋
+킷프리셋: []
+# 능력 별 기본 아이템 설정
+능력킷:
+  ==: daybreak.abilitywar.config.serializable.AbilityKit

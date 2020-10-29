@@ -1,0 +1,222 @@
+능력:
+  고슴도치:
+    # 대미지
+    Damage: 2.0
+  관통화살:
+    # 능력 당 화살 개수
+    ArrowCount: 3
+  광대:
+    # 쿨타임
+    Cooldown: 45
+    # 스킬 범위
+    Range: 10
+  교주:
+    # 쿨타임
+    Cooldown: 150
+  구속:
+    # 쿨타임
+    Cooldown: 25
+    # 유리 구의 최대 크기
+    MAX_SIZE: 7
+    # 최대 강도
+    MaxSolidity: 4
+  글래디에이터:
+    # 쿨타임
+    Cooldown: 120
+  깃털:
+    # 쿨타임
+    Cooldown: 80
+    # 지속시간
+    Duration: 10
+  납치:
+    # 쿨타임
+    Cooldown: 35
+    # 지속 시간
+    Duration: 3
+  넥스:
+    # 쿨타임
+    Cooldown: 120
+    # 대미지
+    Damage: 20
+  다이스 갓:
+    # 쿨타임
+    Cooldown: 14
+  데미갓:
+    # 공격을 받았을 시 몇 퍼센트 확률로 랜덤 버프를 받을지 설정합니다.
+    # 30은 30%를 의미합니다.
+    Chance: 30
+  동기화:
+    # 쿨타임
+    COOLDOWN: 45
+  로렘:
+    # 스킬 쿨타임
+    COOLDOWN: 10
+  루나:
+    # 쿨타임
+    Cool: 50
+  리버스:
+    # 스킬 쿨타임
+    COOLDOWN: 30
+    # 스킬 쿨타임
+    DURATION: 8
+    # 스킬 쿨타임
+    RADIUS: 5
+  마술사:
+    # 쿨타임
+    Cooldown: 8
+  뮤즈:
+    # 쿨타임
+    Cooldown: 80
+  뱀파이어:
+    # 쿨타임
+    Cool: 160
+    # 스킬 거리 (기본값: 12)
+    Distance: 12
+    # 지속시간 (초 단위)
+    # 지속시간이 변할 경우 흡혈 횟수 또한 동일하게 변경됨. ( 1초 = 1회, 4초 = 4회 )
+    Duration: 4
+  버서커:
+    # 쿨타임
+    COOLDOWN: 60
+    # 능력 사용 후 디버프를 받는 시간
+    # 단위 : 초
+    NO_ATTACK_TIME: 4
+    # 공격 강화 배수
+    STRENGTH: 2.2
+  베르투스:
+    # 쿨타임
+    Cooldown: 70
+    # 능력 지속시간
+    Duration: 5
+  보이드:
+    # 쿨타임
+    COOLDOWN: 100
+    # 순간이동 후 무적 지속시간 (틱 단위)
+    INVINCIBILITY_DURATION: 50
+  빠른 회복:
+    # 쿨타임
+    Cooldown: 25
+    # 지속 시간 (단위: 초)
+    Duration: 10
+  설인:
+    # 쿨타임
+    Cooldown: 80
+    # 스킬 사용 시 눈 지형으로 바꿀 범위
+    Range: 15
+  스왑:
+    # 쿨타임
+    COOLDOWN: 35
+    # 스킬 범위
+    DISTANCE: 8
+    # 지속 시간
+    DURATION: 4
+  스토커:
+    # 쿨타임
+    COOLDOWN: 210
+    # 쿨타임
+    LEFT_SKILL_COOLDOWN: 4
+  시간 역행:
+    # 쿨타임
+    COOLDOWN: 100
+    # 능력을 사용했을 때 몇초 전으로 돌아갈지 설정합니다.
+    TIME: 5
+  심안:
+    # 거리 설정
+    Distance: 30
+  아레스:
+    # 쿨타임
+    Cooldown: 90
+    # 스킬 대미지 (단위: 백분율)
+    # 10으로 설정한 경우 대상의 최대 체력 10% 만큼의 대미지를 줍니다.
+    DamagePercent: 50
+  암살자:
+    # 쿨타임
+    Cooldown: 35
+    # 스킬 대미지
+    Damage: 8
+    # 스킬 대미지
+    Distance: 8
+    # 능력 사용 시 텔레포트 횟수
+    TeleportCount: 4
+  영혼 잠식:
+    # 쿨타임
+    Cooldown: 120
+    # 능력 거리 설정
+    Distance: 7
+  유령:
+    # 쿨타임
+    CooldownIncrease: 1
+  유명 인사:
+    # 쿨타임
+    Cooldown: 40
+    # 능력 거리
+    Distance: 10.0
+    # 쿨타임
+    Duration: 5
+  이라:
+    # 몇번 공격을 당하면 폭발을 일으킬지 설정합니다.
+    # 기본값: 3
+    AttackTime: 3
+  익스플로젼:
+    # 스킬 쿨타임
+    COOLDOWN: 40
+    # 쌓을 수 있는 최대 스택 수를 설정합니다.
+    MAXSTACK: 3
+  제우스:
+    # 쿨타임
+    Cooldown: 180
+  지금의 일은 나중의 나에게:
+    # 쿨타임
+    Cooldown: 30
+  진검승부:
+    # 쿨타임
+    Cooldown: 110
+    # 능력 지속시간
+    Duration: 60
+  초신성:
+    # 초신성이 사망할 때 일어날 폭발의 크기
+    Size: 10
+  카오스:
+    # 쿨타임
+    Cooldown: 100
+    # 거리 설정
+    Distance: 5
+    # 능력 지속 시간
+    Duration: 5
+  카쟈드:
+    # 좌클릭 쿨타임
+    Cooldown: 10
+  컬스:
+    # 쿨타임
+    Cooldown: 100
+    # 지속시간
+    Duration: 10
+  테러리스트:
+    # 쿨타임
+    Cooldown: 100
+    # TNT 개수
+    Count: 15
+  플렉터:
+    # 쿨타임
+    Cool: 40
+    # 쿨타임
+    Duration: 7
+  플로라:
+    # 쿨타임
+    Cooldown: 3
+  해커:
+    # 쿨타임
+    Cooldown: 180
+    # 스턴 지속시간
+    DURATION: 5
+  해파리:
+    # 지속 시간 (틱 단위)
+    Duration: 2
+  호박:
+    # 쿨타임
+    Cooldown: 80
+    # 지속 시간
+    Duration: 15
+  황제:
+    # 쿨타임
+    Cooldown: 50

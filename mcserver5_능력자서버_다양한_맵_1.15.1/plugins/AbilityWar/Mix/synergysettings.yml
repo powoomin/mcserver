@@ -1,0 +1,76 @@
+능력:
+  결박:
+    # 쿨타임
+    Cooldown: 25
+    # 최대 강도
+    MaxSolidity: 4
+    # 유리 구의 크기
+    Size: 6
+  귀차니즘:
+    # 쿨타임
+    Cooldown: 30
+  로켓런쳐:
+    # 쿨타임
+    Cooldown: 60
+    # 스킬 대미지 (단위: 백분율)
+    DamagePercent: 50
+    # true로 설정하면 로켓런쳐 능력 사용 시 공중으로 돌진 할 수 있습니다.
+    DashIntoTheAir: false
+  사건의 지평선:
+    # 쿨타임
+    Cooldown: 80
+    # 능력 지속 시간
+    Duration: 8
+  쇼 타임:
+    # 쿨타임
+    Cooldown: 40
+    # 쿨타임
+    Duration: 10
+  암흑 암살자:
+    # 스킬 대미지
+    AssassinDamage: 9
+    # 쿨타임
+    Cooldown: 120
+    # 스킬 대미지
+    Distance: 10
+    # 대미지
+    NexDamage: 20
+    # 능력 사용 시 텔레포트 횟수
+    TeleportCount: 6
+  염인:
+    # 쿨타임
+    Cooldown: 80
+    # 스킬 사용 시 불 지형으로 바꿀 범위
+    Range: 15
+  유성:
+    # 쿨타임
+    Cooldown: 120
+    # 대미지
+    Damage: 20
+  절대 영도:
+    # 쿨타임
+    Cooldown: 80
+    # 좌클릭 쿨타임
+    LeftCooldown: 10
+    # 스킬 사용 시 눈 지형으로 바꿀 범위
+    Range: 15
+  죽음의 손아귀:
+    # 쿨타임
+    Cooldown: 120
+    # 대미지
+    Damage: 30
+  축복:
+    # 쿨타임
+    Cooldown: 80
+  타임 루프:
+    # 쿨타임
+    Cooldown: 100
+  투포환:
+    # 쿨타임
+    Cooldown: 30
+    # 지속 시간
+    Duration: 6
+  팬데믹:
+    # 팬데믹이 사망할 때 일어날 폭발의 크기
+    # 바이러스 감염 범위
+    Size: 10

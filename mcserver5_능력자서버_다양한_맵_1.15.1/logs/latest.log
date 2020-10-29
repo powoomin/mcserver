@@ -1,0 +1,100 @@
+[18:40:16] [Server thread/INFO]: Loading properties
+[18:40:17] [Server thread/INFO]: Default game type: ADVENTURE
+[18:40:17] [Server thread/INFO]: Generating keypair
+[18:40:17] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[18:40:17] [Server thread/INFO]: Using default channel type
+[18:40:20] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-2d9db47 (MC: 1.15.1) (Implementing API version 1.15.1-R0.1-SNAPSHOT)
+[18:40:33] [Server thread/WARN]: Plugin AbilityWar v2.2.4 does not specify an api-version.
+[18:40:33] [Server thread/INFO]: [AbilityWar] Loading AbilityWar v2.2.4
+[18:40:33] [Server thread/INFO]: Preparing level "world"
+[18:40:33] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[18:40:34] [Server thread/INFO]: Loaded 6 recipes
+[18:40:37] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[18:40:39] [Server thread/INFO]: Preparing spawn area: 0%
+[18:40:39] [Server thread/INFO]: Preparing spawn area: 0%
+[18:40:39] [Server thread/INFO]: Preparing spawn area: 0%
+[18:40:39] [Server thread/INFO]: Preparing spawn area: 0%
+[18:40:39] [Server thread/INFO]: Preparing spawn area: 0%
+[18:40:39] [Server thread/INFO]: Preparing spawn area: 83%
+[18:40:40] [ForkJoinPool.commonPool-worker-1/INFO]: [0;32;22m¡¶[0;32;1mAbilityWar[0;32;22m¡·[0;37;1m¹öÀü ¸ñ·ÏÀ» ¸ðµÎ ºÒ·¯¿Ô½À´Ï´Ù.[m
+[18:40:40] [Server thread/INFO]: Time elapsed: 2943 ms
+[18:40:40] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[18:40:42] [Server thread/INFO]: Preparing spawn area: 0%
+[18:40:42] [Server thread/INFO]: Preparing spawn area: 0%
+[18:40:42] [Server thread/INFO]: Preparing spawn area: 0%
+[18:40:42] [Server thread/INFO]: Preparing spawn area: 0%
+[18:40:42] [Server thread/INFO]: Preparing spawn area: 0%
+[18:40:42] [Server thread/INFO]: Time elapsed: 2245 ms
+[18:40:42] [Server thread/INFO]: [AbilityWar] Enabling AbilityWar v2.2.4
+[18:40:42] [Server thread/INFO]: [0;32;22m¡¶[0;32;1mAbilityWar[0;32;22m¡·[0;37;1mServer Version: 1.15.1-R0.1-SNAPSHOT[m
+[18:40:47] [Server thread/INFO]: [0;32;22m¡¶[0;32;1mAbilityWar[0;32;22m¡·[0;37;1mÇÃ·¯±×ÀÎÀÌ È°¼ºÈ­µÇ¾ú½À´Ï´Ù. [0;30;1m([0;37;22mv1_15_R1[0;30;1m)[m
+[18:40:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:40:47] [Server thread/INFO]: Done (13.719s)! For help, type "help"
+[18:41:02] [ForkJoinPool.commonPool-worker-1/INFO]: [0;32;22m¡¶[0;32;1mAbilityWar[0;32;22m¡·[0;37;1mÃßÃµ ¾Öµå¿Â ¸ñ·ÏÀ» ¸ðµÎ ºÒ·¯¿Ô½À´Ï´Ù.[m
+[18:41:09] [User Authenticator #1/INFO]: UUID of player powoomin is 22ffa6c6-e681-4fe5-962c-88d730b8dfdf
+[18:41:09] [Server thread/INFO]: powoomin[/192.168.0.2:50262] logged in with entity id 16 at ([world]1.1218130873498262, 60.0, 2.855826664090413)
+[18:42:30] [User Authenticator #2/INFO]: UUID of player Lucky_Yun is 44b608fe-9e54-4764-8c51-1c452b2ab5b3
+[18:42:30] [Server thread/INFO]: Lucky_Yun[/39.112.63.237:62822] logged in with entity id 17 at ([world]0.5, 60.0, 0.5)
+[18:43:12] [Server thread/WARN]: Lucky_Yun moved wrongly!
+[18:44:01] [Server thread/ERROR]: Block at 0, 62, 0 is Block{minecraft:bedrock} but has net.minecraft.server.v1_15_R1.TileEntityEnderPortal@1bf7b377. Bukkit will attempt to fix this, but there may be additional damage that we cannot recover.
+[18:44:31] [Server thread/WARN]: powoomin moved wrongly!
+[18:51:03] [Server thread/INFO]: powoomin issued server command: /time set 0
+[18:51:03] [Server thread/INFO]: [powoomin: Set the time to 0]
+[18:55:02] [Server thread/WARN]: Exception loading entity: 
+net.minecraft.server.v1_15_R1.ReportedException: Loading entity NBT
+	at net.minecraft.server.v1_15_R1.Entity.f(Entity.java:1683) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.EntityTypes.lambda$101(EntityTypes.java:301) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.SystemUtils.a(SourceFile:341) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.EntityTypes.a(EntityTypes.java:298) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.EntityTypes.b(EntityTypes.java:342) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.EntityTypes.a(EntityTypes.java:323) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.ChunkRegionLoader.loadEntities(SourceFile:375) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.ChunkRegionLoader.b(SourceFile:138) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.Chunk.addEntities(Chunk.java:501) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.PlayerChunkMap.lambda$32(PlayerChunkMap.java:571) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at com.mojang.datafixers.util.Either.lambda$mapLeft$0(Either.java:162) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at com.mojang.datafixers.util.Either.mapLeft(Either.java:162) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.PlayerChunkMap.lambda$30(PlayerChunkMap.java:557) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at java.util.concurrent.CompletableFuture.uniApply(Unknown Source) ~[?:1.8.0_271]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source) ~[?:1.8.0_271]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_271]
+	at net.minecraft.server.v1_15_R1.ChunkTaskQueueSorter.b(SourceFile:58) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeTask(SourceFile:144) [craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.executeNext(SourceFile:118) [craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:555) [craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.ChunkProviderServer.runTasks(ChunkProviderServer.java:241) [craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.aZ(MinecraftServer.java:884) [craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.executeNext(MinecraftServer.java:868) [craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.IAsyncTaskHandler.awaitTasks(SourceFile:127) [craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.sleepForTick(MinecraftServer.java:852) [craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:792) [craftbukkit.jar:git-Bukkit-2d9db47]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_271]
+Caused by: java.lang.AssertionError: TRAP
+	at net.minecraft.server.v1_15_R1.ItemStack.checkEmpty(ItemStack.java:86) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.ItemStack.setCount(ItemStack.java:864) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.EntityFireballFireball.c(SourceFile:31) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.SystemUtils.a(SourceFile:290) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.EntityFireballFireball.b(SourceFile:31) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.EntityFireballFireball.a(SourceFile:63) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.EntityLargeFireball.a(EntityLargeFireball.java:54) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	at net.minecraft.server.v1_15_R1.Entity.f(Entity.java:1630) ~[craftbukkit.jar:git-Bukkit-2d9db47]
+	... 27 more
+[18:58:16] [Server thread/INFO]: powoomin issued server command: /gamemode creative
+[18:58:16] [Server thread/INFO]: [powoomin: Set own game mode to Creative Mode]
+[18:59:39] [Server thread/INFO]: powoomin lost connection: Disconnected
+[18:59:39] [Server thread/INFO]: powoomin left the game
+[18:59:40] [Server thread/INFO]: Lucky_Yun lost connection: Disconnected
+[18:59:40] [Server thread/INFO]: Lucky_Yun left the game
+[18:59:57] [Server thread/INFO]: Stopping the server
+[18:59:58] [Server thread/INFO]: Stopping server
+[18:59:58] [Server thread/INFO]: [AbilityWar] Disabling AbilityWar v2.2.4
+[18:59:58] [Server thread/INFO]: [0;32;22m¡¶[0;32;1mAbilityWar[0;32;22m¡·[0;37;1mÇÃ·¯±×ÀÎÀÌ ºñÈ°¼ºÈ­µÇ¾ú½À´Ï´Ù.[m
+[18:59:58] [Server thread/INFO]: Saving players
+[18:59:58] [Server thread/INFO]: Saving worlds
+[18:59:58] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[18:59:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:59:58] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[18:59:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:59:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
